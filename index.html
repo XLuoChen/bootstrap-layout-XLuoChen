@@ -2,9 +2,178 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <title>bootstrap-layout</title>
+    <style type="text/css">
+        hr{
+            border-top:3px solid;
+            color:gray;
+            background-color:gray;
+        }
+        small{
+            color:darkgrey;
+        }
+        i{
+            color:darkgrey;
+        }
+    </style>
 </head>
-<body>
 
+<body>
+<div class="container-fluid" style="background-color:black; height:50px;vertical-align:middle;" >
+    <a href="https://wrapbootstrap.com/" style="margin-left:180px;margin-right: 70px;font-size: 25px;color:#F0F0F0" target="_blank">{wrap}bootstrap</a>
+    <a href="https://wrapbootstrap.com/theme/3colorresume-personal-resume-cv-WB0265951" style="margin-right: 100px;font-size:25px;color:#F0F0F0" target="_blank">3ColorResume - Personal Resume/CV</a>
+    <a href="http://kamsolutions.pl/projects/resume/" class="btn" style="color:#F0F0F0">Remove this frame &raquo;</a>
+</div>
+
+<div style="background-color:#D8D8D8">
+    <img src="http://kamsolutions.pl/projects/resume/img/avatar.jpg"  height="140px" width="140px" class="img-circle img-responsive center-block">
+    <div class="container" style="margin-left:60px;margin-right:60px;margin-bottom:10px;background-color:#FFFFFF">
+        <h1 class="text-center"><b>HELLO,</b></h1>
+        <h4 class="text-center" style="font-size:20px;"><b>MY NAME IS <span style="color:#FF3333">KAMIL</span><sup style="color:gray">24YO</sup> AND THIS IS MY RESUME/CV</b></h4>
+        <hr />
+        <div id="leftBox" class="container col-md-6" style="margin-left:50px;display:inline">
+            <h4 style="color:#FF3333"><b>//ABOUT ME</b></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum! Quasi.</p>
+            <h4 style="color:#FF3333"><b>//EDUCATION</b></h4>
+            <div id="left2" class="container col-md-12">
+                <div class="container col-md-1" style="display:inline">
+
+                    <strong>1990</strong>
+                    <div style="width:5px;height:65px;margin-left:13px;background-color:#CC6666"></div>
+                    <strong>2005</strong>
+                    <div style="width:5px;height:70px;margin-left:13px;background-color:#CC6666"></div>
+                    <strong>2009</strong>
+                    <div style="width:5px;height:80px;margin-left:13px;background-color:#CC6666"></div>
+                    <strong>2012</strong>
+                    <div style="width:5px;height:20px;margin-left:13px;background-color:#CC6666"></div>
+                </div>
+                <div class="container col-md-10" style="margin-left:10px;display:inline">
+                    <div class="container col-md-12" style="width:auto;background-color:#E8E8E8">
+                        <p><b>I was born in Katowice</b></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, exercitationem, totam, dolores iste dolore est aut modi.</p>
+                    </div>
+                    <div class="container col-md-12" style="margin-top:5px;background-color:#E8E8E8">
+                        <p><b>Secondary school specializing in artistic</b></p>
+                        <p>Eos, explicabo, nam, tenetur et ab eius deserunt aspernatur ipsum ducimus quibusdam quis voluptatibus.</p>
+                    </div>
+                    <div class="container col-md-12" style="margin-top:5px;background-color:#E8E8E8">
+                        <p><b>First level graduation in Graphic Design</b></p>
+                        <p>Aspernatur, mollitia, quos maxime eius suscipit sed beatae ducimus quaerat quibusdam perferendis? Iusto, quibusdam asperiores unde repellat.</p>
+                    </div>
+                    <div class="container col-md-12" style="margin-top:5px;background-color:#E8E8E8">
+                        <p><b>Second level graduation in Graphic Design</b></p>
+                        <p>Ducimus, aliquam tempore autem itaque et accusantium!</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div style="margin-top:200px">
+                <h4 style="color:#FF3333"><b>//EXPERIENCES</b></h4>
+                <dl class="dl-horizontal">
+                    <dt>
+                        <strong>Google</strong>
+                        <br>
+                    <small>2013 - 2014</small>
+                    </dt>
+                    <dd>
+                        <strong>Front-end developer / php programmer</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, et, illum perferendis veritatis velit sunt similique qui magni totam harum tempore eius laboriosam accusantium necessitatibus voluptatum? Enim, itaque dignissimos quia.</p>
+                    </dd>
+                    <dt>
+                        <strong>Twitter</strong>
+                        <br>
+                        <small>2012</small>
+                    </dt>
+                    <dd>
+                        <strong>Web Developer</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, nihil sit nemo voluptatem praesentium. Quia, qui facere consectetur libero asperiores fugiat consequuntur deserunt culpa repudiandae sed quidem voluptas explicabo soluta.</p>
+                    </dd>
+                </dl>
+            </div>
+
+        </div>
+        <div id="rightBox" class="container col-md-4" style="display:inline;margin-left:40px">
+            <h4 style="color:#FF3333"><b>//CONTACT</b></h4>
+     <span class="fa-stack fa-lg">
+         <i class="fa fa-square-o fa-stack-2x"></i>
+         <i class="fa fa-phone fa-stack-1x"></i>
+     </span>
+            500 345 242<br>
+     <span class="fa-stack fa-lg">
+         <i class="fa fa-square-o fa-stack-2x"></i>
+         <i class="fa fa-envelope fa-stack-1x"></i>
+     </span>
+            office@kamsolutions.pl<br>
+     <span class="fa-stack fa-lg">
+         <i class="fa fa-square-o fa-stack-2x"></i>
+         <i class="fa fa-twitter fa-stack-1x"></i>
+     </span>
+            Twitter<small> https://twitter.com/WordPress</small><br>
+     <span class="fa-stack fa-lg">
+         <i class="fa fa-square-o fa-stack-2x"></i>
+         <i class="fa fa-facebook fa-stack-1x"></i>
+     </span>
+            Facebook<small> https://www.facebook.com/facebook</small><br>
+     <span class="fa-stack fa-lg">
+         <i class="fa fa-square-o fa-stack-2x"></i>
+         <i class="fa fa-skype fa-stack-1x"></i>
+     </span>
+            Skype<small> kamsolutions.pl</small>
+            <h4 style="color:#FF3333"><b>//SKILLS</b></h4>
+            <div style="width:455px;height:30px;background-color:#FF6666"><span style="color:#FFFFFF">HTML</span></div>
+            <div style="width:400px;height:30px;background-color:#FF6666;margin-top:6px"><span style="color:#FFFFFF">CSS</span></div>
+            <div style="width:350px;height:30px;background-color:#FF6666;margin-top:6px"><span style="color:#FFFFFF">jQuery</span></div>
+            <div style="width:320px;height:30px;background-color:#FF6666;margin-top:6px"><span style="color:#FFFFFF">PHP</span></div>
+            <div style="width:105px;height:30px;background-color:#FF6666;margin-top:6px"><span style="color:#FFFFFF">Laravel 2 (fram</span></div>
+            <div style="margin-top:10px">
+                <b style="color:gray">|_____________|___________________________|_________________|</b>
+                <br />
+                <div style="display:inline">Beginner</div>
+                <div style="display:inline;margin-left:15px">Proficient</div>
+                <div style="display:inline;margin-left:125px">Expert</div>
+                <div style="display:inline;">Master</div>
+            </div>
+            <h4 style="color:#FF3333"><b>//LANGUAGES</b></h4>
+            <dl class="dl-horizontal" style="padding-left:0">
+                <dt>
+                    <strong>Polish</strong>
+                </dt>
+                <dd>
+                    <span class="glyphicon glyphicon-star" style="color:red;font-size:15px"></span>
+                    <span class="glyphicon glyphicon-star" style="color:red;font-size:15px"></span>
+                    <span class="glyphicon glyphicon-star" style="color:red;font-size:15px"></span>
+                    <span class="glyphicon glyphicon-star" style="color:red;font-size:15px"></span>
+                    <span class="glyphicon glyphicon-star" style="font-size:15px"></span>
+                </dd>
+                <dt>
+                    <strong>English</strong>
+                </dt>
+                <dd>
+                    <span class="glyphicon glyphicon-star" style="color:red;font-size:15px"></span>
+                    <span class="glyphicon glyphicon-star" style="color:red;font-size:15px"></span>
+                    <span class="glyphicon glyphicon-star" style="color:red;font-size:15px"></span>
+                    <span class="glyphicon glyphicon-star" style="font-size:15px"></span>
+                    <span class="glyphicon glyphicon-star" style="font-size:15px"></span>
+                </dd>
+            </dl>
+
+            <h4 style="color:#FF3333"><b>//HOBBIES</b></h4>
+            <div style="width:90px;height:50px;display:inline;background-color:#c949ff">
+                <span class="glyphicon glyphicon-heart" style="color:white"> Photography</span>
+            </div>
+            <div style="width:60px;height:50px;display:inline;background-color:#c949ff;margin-left:10px">
+                <span class="glyphicon glyphicon-heart" style="color:white"> Fitness</span>
+            </div>
+            <div style="width:60px;height:50px;display:inline;background-color:#c949ff;margin-left:10px">
+                <span class="glyphicon glyphicon-heart" style="color:white"> Programming</span>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
